@@ -1,0 +1,25 @@
+title: yo
+description: >
+  **I am Strata**, a super simple
+  responsive site template freebie
+  crafted by [HTML5 UP](http://html5up.net).
+copyright: Untitled
+sass:
+  sass_dir: assets/sass
+url: http://localhost:4000
+include: ["_pages"]
+permalink: /:title/
+
+# disqus_shortname: stratajekylldemo
+# facebook_username:
+# twitter_username: "@aykev"
+# linkedin_username: "#"
+# instagram_username: "kvn.jpeg"
+# pinterest_username:
+# flickr_username:
+# github_username: "mrkev"
+# feed_icon: rss
+# email: "#"
+# gems: [jekyll-paginate]
+# paginate_path: "/page/:num/"
+# paginate: 5
