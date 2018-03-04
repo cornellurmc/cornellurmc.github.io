@@ -5,3 +5,9 @@ sass:
 url: http://localhost:4000
 include: ["_pages"]
 permalink: /:title/
+
+defaults:
+  - scope:
+      path: 'assets/gallery'
+    values:
+      gallery_image: true
