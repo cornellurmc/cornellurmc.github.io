@@ -718,6 +718,13 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
+/* gallery */
+  .gallery-image {
+      img {
+          width: 100%;
+      }
+  }
+
 /* Table */
 
 	.table-wrapper {

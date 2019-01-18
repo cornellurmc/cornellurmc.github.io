@@ -1608,6 +1608,10 @@ ul {
 dl {
   margin: 0 0 2em 0; }
 
+/* gallery */
+.gallery-image img {
+  width: 100%; }
+
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
