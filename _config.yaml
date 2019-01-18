@@ -11,3 +11,8 @@ defaults:
       path: 'assets/gallery'
     values:
       gallery_image: true
+
+sponsorship_info:
+  - hi
+
+
