@@ -15,4 +15,8 @@ defaults:
 sponsorship_info:
   - hi
 
+collections:
+  members:
+    output: false
+
 

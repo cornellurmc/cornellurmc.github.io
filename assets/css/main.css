@@ -1612,6 +1612,27 @@ dl {
 .gallery-image img {
   width: 100%; }
 
+/* members */
+.member-container {
+  display: flex;
+  flex-direction: row; }
+  .member-container .image-wrapper {
+    display: block;
+    margin: auto 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: none;
+    width: 300px;
+    height: 300px; }
+    .member-container .image-wrapper .member-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover; }
+  .member-container .member-right-side {
+    padding: 20px 20px; }
+
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;

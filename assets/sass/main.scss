@@ -725,6 +725,35 @@
       }
   }
 
+/* members */
+  .member-container {
+      display: flex;
+      flex-direction: row;
+
+      .image-wrapper {
+          display: block;
+          margin: auto 20px;
+          object-fit: cover;
+          border-radius: 50%;
+          overflow: hidden;
+          flex: none;
+          width: 300px;
+          height: 300px;
+
+          .member-img {
+              display: block;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+          }
+      }
+
+      .member-right-side {
+          padding: 20px 20px;
+      }
+
+  }
+
 /* Table */
 
 	.table-wrapper {

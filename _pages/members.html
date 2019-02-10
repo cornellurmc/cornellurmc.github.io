@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'E-Board Members'
+permalink: /members/
+---
+
+{% assign co_president_id = "Co-President" %}
+{% assign co_presidents = site.members | where: "position", co_president_id %}
+{% assign non_co_presidents = site.members | where_exp: "item", "item.position != 'Co-President'" %}
+{% assign member_list = co_presidents | concat: non_co_presidents %}
+
+{% for member in member_list %}
+<div class="member-container">
+  <div class="image-wrapper">
+    <img width="100pt" height="100pt" class="member-img" src="{{member.image}}">
+  </div>
+  <div class="member-right-side">
+    <h2>{{member.name}}</h2>
+    <h3>{{member.position}}</h3>
+    {{member.content}}
+  </div>
+</div>
+{% endfor %}
